@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -10,9 +20,11 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -23,7 +35,76 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_a69pDJ": {
+      "type": "featured-product",
+      "blocks": {
+        "text_U7VTAE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_kkdQxN": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_FyqPhN": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ytRFGJ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_UHLqzB": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_W7kE8K": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_4TbD9M": {
+          "type": "share",
+          "settings": {
+            "share_label": "Delen"
+          }
+        }
+      },
+      "block_order": [
+        "text_U7VTAE",
+        "title_kkdQxN",
+        "price_FyqPhN",
+        "variant_picker_ytRFGJ",
+        "quantity_selector_UHLqzB",
+        "buy_buttons_W7kE8K",
+        "share_4TbD9M"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -31,6 +112,7 @@
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "featured_product_a69pDJ"
   ]
 }
